@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>MoveDigitalku_ | Undangan Digital Premium 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <!-- Custom Cursor (bisa dihide di mobile) -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <span>MOVE<span class="highlight">DIGITALKU_</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#projects">Portofolio</a></li>
+                <li><a href="#testimonials">Testimoni</a></li>
+                <li><a href="#pricing">Harga</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section dengan Mockup HP + Video -->
+    <section id="home" class="hero">
+        <div class="hero-bg-gradient"></div>
+        <div class="hero-noise"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="badge">
+                    <span class="badge-dot"></span>
+                    • PREMIUM QUALITY
+                </div>
+                <h1 class="hero-title">
+                    <span class="text-line">Undangan Digital</span>
+                    <span class="text-line gradient-text">Yang Bikin Tamu</span>
+                    <span class="text-line">Auto Kagum</span>
+                </h1>
+                <p class="hero-desc">
+                    Wedding • Khitanan • Wisuda • Ulang Tahun <br>
+                    Desain premium, animasi memukau, dan RSVP realtime.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">
+                        <span>Lihat Karya</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="https://wa.me/6285362682021" class="btn-glow" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Chat Now</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat"><span class="stat-number">150+</span><span class="stat-label">Project Selesai</span></div>
+                    <div class="stat"><span class="stat-number">98%</span><span class="stat-label">Kepuasan Klien</span></div>
+                    <div class="stat"><span class="stat-number">24/7</span><span class="stat-label">Support</span></div>
+                </div>
+            </div>
+
+            <!-- Mockup HP dengan Video Preview -->
+            <div class="hero-mockup">
+                <div class="mockup-phone">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen">
+                        <video id="previewVideo" class="preview-video" autoplay muted loop playsinline>
+                            <source src="assets/preview-demo.mp4" type="video/mp4">
+                            <!-- fallback: jika video belum ada, tampilkan animasi CSS -->
+                        </video>
+                        <div class="video-fallback">
+                            <div class="fallback-animation">
+                                <i class="fas fa-play-circle"></i>
+                                <span>Preview Project</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="phone-home-bar"></div>
+                </div>
+                <div class="mockup-glow"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Projects Section dengan Filter -->
+<section id="projects" class="projects">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag"><i class="fas fa-sparkle"></i> PORTFOLIO</span>
+            <h2 class="section-title">Karya <span class="gradient-text">Terbaru</span></h2>
+            <p class="section-subtitle">Klik tombol preview untuk lihat demo interaktifnya</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">Semua</button>
+            <button class="filter-btn" data-filter="wedding">
+                <i class="fas fa-heart"></i> Wedding
+            </button>
+            <button class="filter-btn" data-filter="khitanan">
+                <i class="fas fa-mosque"></i> Khitanan
+            </button>
+            <button class="filter-btn" data-filter="wisuda">
+                <i class="fas fa-graduation-cap"></i> Wisuda
+            </button>
+            <button class="filter-btn" data-filter="birthday">
+                <i class="fas fa-birthday-cake"></i> Birthday
+            </button>
+            <button class="filter-btn" data-filter="anniversary">
+                <i class="fas fa-ring"></i> Anniversary
+            </button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+</section>
+
+    <!-- Testimonial Section (Slider) -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-comment-dots"></i> TESTIMONIAL</span>
+                <h2 class="section-title">Apa Kata <span class="gradient-text">Klien Kami?</span></h2>
+            </div>
+            <div class="swiper testimonial-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p>"Makasih MoveDigitalKu_, undangan wedding saya jadi lebih keren dari yang dibayangkan! Tamu pada komentar bagus semua."</p>
+                            <div class="client-info">
+                                <div class="client-avatar">RA</div>
+                                <div><h4>Rina Andriani</h4><span>Wedding, Jan 2026</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p>"Proses cepat, desainnya kekinian banget. Anak saya senang undangan wisudanya beda dari yang lain."</p>
+                            <div class="client-info">
+                                <div class="client-avatar">BP</div>
+                                <div><h4>Budi Prasetyo</h4><span>Wisuda, Des 2025</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p>"Recommended banget! Untuk khitanan anak saya, tamu sampai bilang undangannya kayak aplikasi premium."</p>
+                            <div class="client-info">
+                                <div class="client-avatar">SN</div>
+                                <div><h4>Siti Nurhaliza</h4><span>Khitanan, Feb 2026</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p>"Ultah anak saya jadi meriah karena undangan digitalnya interaktif. Anak2 pada penasaran!"</p>
+                            <div class="client-info">
+                                <div class="client-avatar">DP</div>
+                                <div><h4>Dewi Permata</h4><span>Birthday, Mar 2026</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-tag"></i> HARGA</span>
+                <h2 class="section-title">Pilih Paket <span class="gradient-text">Sesuai Kebutuhan</span></h2>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-badge">POPULER</div>
+                    <h3>Basic Wedding</h3>
+                    <div class="price">Rp 130k</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 1 Halaman Undangan</li>
+                        <li><i class="fas fa-check"></i> Galeri Foto (10 foto)</li>
+                        <li><i class="fas fa-check"></i> RSVP Sederhana</li>
+                        <li><i class="fas fa-check"></i> Musik Latar</li>
+                        <li><i class="fas fa-times"></i> Countdown Timer</li>
+                    </ul>
+                    <a href="https://wa.me/6285362682021?text=Halo%2C%20saya%20minat%20paket%20Basic%20Wedding" class="btn-pricing" target="_blank">Pilih Paket</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge gold">BEST SELLER</div>
+                    <h3>Premium Wedding</h3>
+                    <div class="price">Rp 150k</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Semua Basic +</li>
+                        <li><i class="fas fa-check"></i> Animasi Premium</li>
+                        <li><i class="fas fa-check"></i> Peta Lokasi Interaktif</li>
+                        <li><i class="fas fa-check"></i> Countdown Timer</li>
+                        <li><i class="fas fa-check"></i> Buku Tamu Digital</li>
+                        <li><i class="fas fa-check"></i> Unlimited Revisi</li>
+                    </ul>
+                    <a href="https://wa.me/6285362682021?text=Halo%2C%20saya%20minat%20paket%20Premium%20Wedding" class="btn-pricing btn-pricing-glow" target="_blank">Pilih Paket</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Custom</h3>
+                    <div class="price">Mulai 350k+</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Desain Eksklusif</li>
+                        <li><i class="fas fa-check"></i> Fitur Custom Request</li>
+                        <li><i class="fas fa-check"></i> Animasi 3D/Interaktif</li>
+                        <li><i class="fas fa-check"></i> Domain & Hosting</li>
+                        <li><i class="fas fa-check"></i> Support 1 Tahun</li>
+                    </ul>
+                    <a href="https://wa.me/6285362682021?text=Halo%2C%20saya%20minat%20paket%20Custom" class="btn-pricing" target="_blank">Konsultasi</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-card">
+                <div class="contact-glow"></div>
+                <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                <h3>Siap Punya Undangan Digital Premium?</h3>
+                <p>Konsultasi gratis! Ceritakan konsep yang kamu mau, kita wujudkan jadi digital yang stunning.</p>
+                <a href="https://wa.me/6285362682021" class="btn-wa" target="_blank"><i class="fab fa-whatsapp"></i> Pesan Sekarang <i class="fas fa-arrow-right"></i></a>
+                <div class="contact-phone">Atau hubungi: 0853-6268-2021</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 movedigitalKu_ — Undangan Digital Masa Depan</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
