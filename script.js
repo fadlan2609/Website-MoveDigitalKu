@@ -178,7 +178,7 @@ function renderProjects() {
                         <a href="${project.demoLink}" target="_blank" class="btn-demo">
                             <i class="fas fa-eye"></i> Live Preview
                         </a>
-                        <a href="https://wa.me/6285362682021?text=Halo%2C%20saya%20tertarik%20dengan%20${encodeURIComponent(project.title)}%0A%0A📋%20Detail%20Project%3A%0A- ${encodeURIComponent(project.categoryDisplay)}%0A- ${encodeURIComponent(project.title)}%0A%0A💰%20Harga%20Promo%3A%20${encodeURIComponent(finalPrice)}%0A${hasDiscount ? `🔥 Diskon ${project.discount}%% OFF%0A💎 Hemat ${encodeURIComponent(saveAmount)}` : ''}%0A%0A🎯%20Mau%20pesan%20sekarang%20dong!" 
+                        <a href="https://wa.me/6285262378799?text=Halo%2C%20saya%20tertarik%20dengan%20${encodeURIComponent(project.title)}%0A%0A📋%20Detail%20Project%3A%0A- ${encodeURIComponent(project.categoryDisplay)}%0A- ${encodeURIComponent(project.title)}%0A%0A💰%20Harga%20Promo%3A%20${encodeURIComponent(finalPrice)}%0A${hasDiscount ? `🔥 Diskon ${project.discount}%% OFF%0A💎 Hemat ${encodeURIComponent(saveAmount)}` : ''}%0A%0A🎯%20Mau%20pesan%20sekarang%20dong!" 
                            target="_blank" class="btn-wa-small">
                             <i class="fab fa-whatsapp"></i> Pesan Sekarang
                         </a>
