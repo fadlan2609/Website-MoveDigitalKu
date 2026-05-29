@@ -14,12 +14,12 @@ const projectsData = [
     },
     {
         id: 2,
-        title: "Undangan Wedding Arif & Nurul",
+        title: "Undangan Wedding Vivi & Albian",
         category: "wedding",
         categoryDisplay: "Wedding",
         description: "Tema klasik modern, animasi love particle, musik latar otomatis.",
         image: "assets/wedding/wedding-2.png",
-        demoLink: "https://happy-wedding-a-n.vercel.app/",
+        demoLink: "https://wedding-vivialbian.vercel.app/",
         originalPrice: 199000,
         price: 150000,
         discount: 20
