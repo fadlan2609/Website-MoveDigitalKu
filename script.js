@@ -96,6 +96,18 @@ const projectsData = [
         price: 150000,
         discount: 70
     },
+    {
+        id: 9,
+        title: "Anniversary 6 Bulan",
+        category: "anniversary",
+        categoryDisplay: "Anniversary",
+        description: "Perayaan cinta dengan timeline perjalanan, galeri foto romantis.",
+        image: "assets/anniversary/anniv-2.png",
+        demoLink: "https://anniversary-6bulan-fadlanhijri.vercel.app/",
+        originalPrice: 649000,
+        price: 150000,
+        discount: 70
+    },
 ];
 
 // ==================== GLOBAL VARIABLES ====================
