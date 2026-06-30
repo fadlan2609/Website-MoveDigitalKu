@@ -86,7 +86,7 @@ const projectsData = [
     },
     {
         id: 8,
-        title: "Birthday ke-22 Pacar",
+        title: "Birthday ke-22",
         category: "birthday",
         categoryDisplay: "Birthday",
         description: "Desain seperti Game",
