@@ -38,6 +38,18 @@ const projectsData = [
     },
     {
         id: 4,
+        title: "Undangan Wedding Arif & Nurul",
+        category: "wedding",
+        categoryDisplay: "Wedding",
+        description: "Minimalis premium dengan RSVP online & peta interaktif.",
+        image: "assets/wedding/wedding-4.png",
+        demoLink: "https://happy-wedding-a-n.vercel.app/",
+        originalPrice: 299000,
+        price: 100000,
+        discount: 30
+    },
+    {
+        id: 5,
         title: "Khitanan Dika",
         category: "khitanan",
         categoryDisplay: "Khitanan",
@@ -49,7 +61,7 @@ const projectsData = [
         discount: 20
     },
     {
-        id: 5,
+        id: 6,
         title: "Wisuda S1 Fadlan Fiqri Fauzan",
         category: "wisuda",
         categoryDisplay: "Wisuda",
@@ -61,7 +73,7 @@ const projectsData = [
         discount: 30
     },
     {
-        id: 6,
+        id: 7,
         title: "Ucapan Ultah ke-20 untuk Sicantik",
         category: "birthday",
         categoryDisplay: "Birthday",
@@ -73,7 +85,7 @@ const projectsData = [
         discount: 30
     },
     {
-        id: 7,
+        id: 8,
         title: "Birthday ke-22 Pacar",
         category: "birthday",
         categoryDisplay: "Birthday",
@@ -85,7 +97,7 @@ const projectsData = [
         discount: 20
     },
     {
-        id: 8,
+        id: 9,
         title: "Anniversary 5 Bulan",
         category: "anniversary",
         categoryDisplay: "Anniversary",
@@ -97,7 +109,7 @@ const projectsData = [
         discount: 70
     },
     {
-        id: 9,
+        id: 10,
         title: "Anniversary 6 Bulan",
         category: "anniversary",
         categoryDisplay: "Anniversary",
