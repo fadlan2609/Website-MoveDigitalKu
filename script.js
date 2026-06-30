@@ -9,7 +9,7 @@ const projectsData = [
         image: "assets/wedding/wedding-1.png",
         demoLink: "https://wedding-vinnyyopie.vercel.app/",
         originalPrice: 299000,
-        price: 150000,
+        price: 130000,
         discount: 30
     },
     {
@@ -21,7 +21,7 @@ const projectsData = [
         image: "assets/wedding/wedding-2.png",
         demoLink: "https://wedding-vivialbian.vercel.app/",
         originalPrice: 199000,
-        price: 150000,
+        price: 130000,
         discount: 20
     },
     {
@@ -33,7 +33,7 @@ const projectsData = [
         image: "assets/wedding/wedding-3.png",
         demoLink: "https://wedding-f-h.vercel.app/",
         originalPrice: 299000,
-        price: 150000,
+        price: 100000,
         discount: 30
     },
     {
@@ -45,7 +45,7 @@ const projectsData = [
         image: "assets/khitanan/khitanan-1.png",
         demoLink: "https://khitanan-dika.vercel.app/",
         originalPrice: 199000,
-        price: 150000,
+        price: 100000,
         discount: 20
     },
     {
@@ -57,7 +57,7 @@ const projectsData = [
         image: "assets/wisuda/wisuda-1.png",
         demoLink: "https://undangan-wisuda-fadlan.vercel.app/#home",
         originalPrice: 299000,
-        price: 150000,
+        price: 80000,
         discount: 30
     },
     {
@@ -69,7 +69,7 @@ const projectsData = [
         image: "assets/hbd/birthday-1.png",
         demoLink: "https://hbd-sayangku-hijri.vercel.app/",
         originalPrice: 499000,
-        price: 150000,
+        price: 95000,
         discount: 30
     },
     {
@@ -81,7 +81,7 @@ const projectsData = [
         image: "assets/hbd/birthday-2.png",
         demoLink: "https://ulang-tahun-syahfitri.vercel.app/",
         originalPrice: 549000,
-        price: 150000,
+        price: 90000,
         discount: 20
     },
     {
@@ -93,7 +93,7 @@ const projectsData = [
         image: "assets/anniversary/anniv-1.png",
         demoLink: "https://fadlan2609-anniversary-lovee.vercel.app/",
         originalPrice: 649000,
-        price: 150000,
+        price: 80000,
         discount: 70
     },
     {
@@ -105,7 +105,7 @@ const projectsData = [
         image: "assets/anniversary/anniv-2.png",
         demoLink: "https://anniversary-6bulan-fadlanhijri.vercel.app/",
         originalPrice: 649000,
-        price: 150000,
+        price: 100000,
         discount: 70
     },
 ];
